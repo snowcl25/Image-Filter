@@ -13,6 +13,7 @@
 		129A986219F6D643003D3162 /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 129A986119F6D643003D3162 /* Images.xcassets */; };
 		129A986519F6D643003D3162 /* LaunchScreen.xib in Resources */ = {isa = PBXBuildFile; fileRef = 129A986319F6D643003D3162 /* LaunchScreen.xib */; };
 		129A987119F6D643003D3162 /* Image_FilterTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 129A987019F6D643003D3162 /* Image_FilterTests.swift */; };
+		129A987B19F6D660003D3162 /* Macaroons.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 129A987A19F6D660003D3162 /* Macaroons.jpg */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -36,6 +37,7 @@
 		129A986A19F6D643003D3162 /* Image FilterTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "Image FilterTests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
 		129A986F19F6D643003D3162 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		129A987019F6D643003D3162 /* Image_FilterTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Image_FilterTests.swift; sourceTree = "<group>"; };
+		129A987A19F6D660003D3162 /* Macaroons.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; name = Macaroons.jpg; path = ../../Macaroons.jpg; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -77,6 +79,7 @@
 		129A985719F6D643003D3162 /* Image Filter */ = {
 			isa = PBXGroup;
 			children = (
+				129A987A19F6D660003D3162 /* Macaroons.jpg */,
 				129A985A19F6D643003D3162 /* AppDelegate.swift */,
 				129A985C19F6D643003D3162 /* ViewController.swift */,
 				129A985E19F6D643003D3162 /* Main.storyboard */,
@@ -195,6 +198,7 @@
 				129A986019F6D643003D3162 /* Main.storyboard in Resources */,
 				129A986519F6D643003D3162 /* LaunchScreen.xib in Resources */,
 				129A986219F6D643003D3162 /* Images.xcassets in Resources */,
+				129A987B19F6D660003D3162 /* Macaroons.jpg in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};

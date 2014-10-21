@@ -10,6 +10,19 @@ import UIKit
 
 class ViewController: UIViewController {
 
+    @IBOutlet weak var MyImage: UIImageView!
+    
+    let context = CIContext(options: nil)
+    
+    @IBAction func ApplyFilter(sender: AnyObject) {
+        
+        // Create an image to filter
+        let inputImage = CIImage(image: MyImage.image)
+        
+        // Create a random color to pass to a filter
+        let randomColor = [kCIInputAngleKey];
+        
+    }
     override func viewDidLoad() {
         super.viewDidLoad()
         // Do any additional setup after loading the view, typically from a nib.
